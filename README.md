@@ -11,6 +11,7 @@
     - Function to modify sensors and devices in the genetic circuit
  
 2. File description
+```
 ├── celloapi2   			# modified celloapi2.py
 ├── input
 │   ├── and.v				# a verilog file that describes the genetic circuit
@@ -28,7 +29,7 @@
 │   ├── main.py	
 │   └── output
 └── README.md
-
+```
 
 3. Installation
  - Requirements
@@ -36,8 +37,10 @@
    - Python 3.8+
 
  - Commands
-   $ docker pull cidarlab/cello-dnacompiler:latest
-   $ pip install celloapi2
+ 
+ 	- `  $ docker pull cidarlab/cello-dnacompiler:latest`
+ 
+  	- `  $ pip install celloapi2`
 
 4. Additional Function and File Description
  - sensor singal operation:
