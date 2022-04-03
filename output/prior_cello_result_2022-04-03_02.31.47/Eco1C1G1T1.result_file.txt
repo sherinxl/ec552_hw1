@@ -1,0 +1,5 @@
+Best Score: 0
+Best Chassis: None
+Best Input Signals: None
+Best Gates: None
+Best Logic Dict: None

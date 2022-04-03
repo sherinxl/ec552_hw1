@@ -1,0 +1,74 @@
+{
+	"name": "and_gate",
+	"inputFilename": "/root/input/and.v",
+	"placements": 
+	[
+	],
+	"nodes": 
+	[
+		{
+			"name": "$1",
+			"nodeType": "NOR",
+			"partitionID": -1,
+			"deviceName": "P3_PhlF",
+		},
+		{
+			"name": "out",
+			"nodeType": "PRIMARY_OUTPUT",
+			"partitionID": -1,
+			"deviceName": "YFP_reporter",
+		},
+		{
+			"name": "$2",
+			"nodeType": "NOT",
+			"partitionID": -1,
+			"deviceName": "A1_AmtR",
+		},
+		{
+			"name": "$3",
+			"nodeType": "NOT",
+			"partitionID": -1,
+			"deviceName": "S4_SrpR",
+		},
+		{
+			"name": "b",
+			"nodeType": "PRIMARY_INPUT",
+			"partitionID": -1,
+			"deviceName": "LacIStretch_sensor",
+		},
+		{
+			"name": "a",
+			"nodeType": "PRIMARY_INPUT",
+			"partitionID": -1,
+			"deviceName": "AraC_sensor",
+		},
+	],
+	"edges": 
+	[
+		{
+			"name": "e1__$1_out",
+			"src": "$1",
+			"dst": "out",
+		},
+		{
+			"name": "e2__$2_$1",
+			"src": "$2",
+			"dst": "$1",
+		},
+		{
+			"name": "e3__$3_$1",
+			"src": "$3",
+			"dst": "$1",
+		},
+		{
+			"name": "e4__b_$3",
+			"src": "b",
+			"dst": "$3",
+		},
+		{
+			"name": "e5__a_$2",
+			"src": "a",
+			"dst": "$2",
+		},
+	],
+},

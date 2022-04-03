@@ -1,0 +1,1102 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/">
+  <sbol:ModuleDefinition rdf:about="http://cellocad.org/v2/Design0_Module">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Module"/>
+    <sbol:displayId>Design0_Module</sbol:displayId>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://cellocad.org/v2/Design0_Module/Design0_Group1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Module/Design0_Group1"/>
+        <sbol:displayId>Design0_Group1</sbol:displayId>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/Design0_Group1/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://cellocad.org/v2/Design0_Module/Design0_Group0">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Module/Design0_Group0"/>
+        <sbol:displayId>Design0_Group0</sbol:displayId>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/Design0_Group0/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://cellocad.org/v2/Design0_Module/Design0_Group2">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Module/Design0_Group2"/>
+        <sbol:displayId>Design0_Group2</sbol:displayId>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/Design0_Group2/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#none"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+  </sbol:ModuleDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/Design0_Group2_Object0/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0"/>
+    <sbol:displayId>Design0_Group2_Object0</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group2_Object0/pPhlF_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/pPhlF_Component"/>
+        <sbol:displayId>pPhlF_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/pPhlF/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group2_Object0/YFP_cassette_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/YFP_cassette_Component"/>
+        <sbol:displayId>YFP_cassette_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/YFP_cassette/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group2_Object0/SequenceAnnotation0/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/SequenceAnnotation0"/>
+        <sbol:displayId>SequenceAnnotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group2_Object0/SequenceAnnotation0/SequenceAnnotation0_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/SequenceAnnotation0/SequenceAnnotation0_Range"/>
+            <sbol:displayId>SequenceAnnotation0_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>66</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/pPhlF_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group2_Object0/SequenceAnnotation1/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/SequenceAnnotation1"/>
+        <sbol:displayId>SequenceAnnotation1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group2_Object0/SequenceAnnotation1/SequenceAnnotation1_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/SequenceAnnotation1/SequenceAnnotation1_Range"/>
+            <sbol:displayId>SequenceAnnotation1_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>67</sbol:start>
+            <sbol:end>952</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/YFP_cassette_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group2_Object0/Design0_Group2_Object0_Constraint1/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/Design0_Group2_Object0_Constraint1"/>
+        <sbol:displayId>Design0_Group2_Object0_Constraint1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/pPhlF_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/YFP_cassette_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0_Sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/P2/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/P2"/>
+    <sbol:displayId>P2</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/P2_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/RiboJ53/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/RiboJ53"/>
+    <sbol:displayId>RiboJ53</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/RiboJ53_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0"/>
+    <sbol:displayId>Design0_Group1_Object0</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/ECK120033737_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/ECK120033737_Component"/>
+        <sbol:displayId>ECK120033737_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/ECK120033737/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/pAmtR_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/pAmtR_Component"/>
+        <sbol:displayId>pAmtR_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/pAmtR/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/pSrpR_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/pSrpR_Component"/>
+        <sbol:displayId>pSrpR_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/pSrpR/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/RiboJ53_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/RiboJ53_Component"/>
+        <sbol:displayId>RiboJ53_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/RiboJ53/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/P2_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/P2_Component"/>
+        <sbol:displayId>P2_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/P2/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/PhlF_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/PhlF_Component"/>
+        <sbol:displayId>PhlF_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/PhlF/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation2/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation2"/>
+        <sbol:displayId>SequenceAnnotation2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation2/SequenceAnnotation2_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation2/SequenceAnnotation2_Range"/>
+            <sbol:displayId>SequenceAnnotation2_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>146</sbol:start>
+            <sbol:end>224</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/RiboJ53_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation3/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation3"/>
+        <sbol:displayId>SequenceAnnotation3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation3/SequenceAnnotation3_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation3/SequenceAnnotation3_Range"/>
+            <sbol:displayId>SequenceAnnotation3_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>225</sbol:start>
+            <sbol:end>261</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/P2_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation1/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation1"/>
+        <sbol:displayId>SequenceAnnotation1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation1/SequenceAnnotation1_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation1/SequenceAnnotation1_Range"/>
+            <sbol:displayId>SequenceAnnotation1_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>83</sbol:start>
+            <sbol:end>145</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/pAmtR_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation0/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation0"/>
+        <sbol:displayId>SequenceAnnotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation0/SequenceAnnotation0_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation0/SequenceAnnotation0_Range"/>
+            <sbol:displayId>SequenceAnnotation0_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>82</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/pSrpR_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation4/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation4"/>
+        <sbol:displayId>SequenceAnnotation4</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation4/SequenceAnnotation4_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation4/SequenceAnnotation4_Range"/>
+            <sbol:displayId>SequenceAnnotation4_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>262</sbol:start>
+            <sbol:end>864</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/PhlF_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation5/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation5"/>
+        <sbol:displayId>SequenceAnnotation5</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation5/SequenceAnnotation5_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/SequenceAnnotation5/SequenceAnnotation5_Range"/>
+            <sbol:displayId>SequenceAnnotation5_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>865</sbol:start>
+            <sbol:end>921</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/ECK120033737_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/Design0_Group1_Object0_Constraint3/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/Design0_Group1_Object0_Constraint3"/>
+        <sbol:displayId>Design0_Group1_Object0_Constraint3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/RiboJ53_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/P2_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/Design0_Group1_Object0_Constraint1/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/Design0_Group1_Object0_Constraint1"/>
+        <sbol:displayId>Design0_Group1_Object0_Constraint1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/pSrpR_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/pAmtR_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/Design0_Group1_Object0_Constraint5/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/Design0_Group1_Object0_Constraint5"/>
+        <sbol:displayId>Design0_Group1_Object0_Constraint5</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/PhlF_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/ECK120033737_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/Design0_Group1_Object0_Constraint4/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/Design0_Group1_Object0_Constraint4"/>
+        <sbol:displayId>Design0_Group1_Object0_Constraint4</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/P2_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/PhlF_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object0/Design0_Group1_Object0_Constraint2/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/Design0_Group1_Object0_Constraint2"/>
+        <sbol:displayId>Design0_Group1_Object0_Constraint2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/pAmtR_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/RiboJ53_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0_Sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/YFP_cassette/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/YFP_cassette"/>
+    <sbol:displayId>YFP_cassette</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/YFP_cassette_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/Design0_Group2/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2"/>
+    <sbol:displayId>Design0_Group2</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group2/Group2_Object0_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2/Group2_Object0_Component"/>
+        <sbol:displayId>Group2_Object0_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group2/SequenceAnnotation0/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2/SequenceAnnotation0"/>
+        <sbol:displayId>SequenceAnnotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group2/SequenceAnnotation0/SequenceAnnotation0_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2/SequenceAnnotation0/SequenceAnnotation0_Range"/>
+            <sbol:displayId>SequenceAnnotation0_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>952</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group2/Group2_Object0_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/Design0_Group2_Sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/pTac/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/pTac"/>
+    <sbol:displayId>pTac</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/pTac_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/pPhlF/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/pPhlF"/>
+    <sbol:displayId>pPhlF</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/pPhlF_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/BydvJ/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/BydvJ"/>
+    <sbol:displayId>BydvJ</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/BydvJ_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/RiboJ10/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/RiboJ10"/>
+    <sbol:displayId>RiboJ10</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001977"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/RiboJ10_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/S1/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/S1"/>
+    <sbol:displayId>S1</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/S1_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/A1/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/A1"/>
+    <sbol:displayId>A1</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/A1_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/PhlF/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/PhlF"/>
+    <sbol:displayId>PhlF</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/PhlF_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/Design0_Group0/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group0"/>
+    <sbol:displayId>Design0_Group0</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/Design0_Group0_Sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/pSrpR/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/pSrpR"/>
+    <sbol:displayId>pSrpR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/pSrpR_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/SrpR/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/SrpR"/>
+    <sbol:displayId>SrpR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/SrpR_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/pAmtR/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/pAmtR"/>
+    <sbol:displayId>pAmtR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/pAmtR_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/L3S2P55/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/L3S2P55"/>
+    <sbol:displayId>L3S2P55</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/L3S2P55_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/ECK120019600/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/ECK120019600"/>
+    <sbol:displayId>ECK120019600</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/ECK120019600_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/ECK120033737/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/ECK120033737"/>
+    <sbol:displayId>ECK120033737</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/ECK120033737_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/AmtR/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/AmtR"/>
+    <sbol:displayId>AmtR</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/AmtR_sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2"/>
+    <sbol:displayId>Design0_Group1_Object2</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/BydvJ_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/BydvJ_Component"/>
+        <sbol:displayId>BydvJ_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/BydvJ/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/L3S2P55_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/L3S2P55_Component"/>
+        <sbol:displayId>L3S2P55_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/L3S2P55/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/A1_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/A1_Component"/>
+        <sbol:displayId>A1_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/A1/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/AmtR_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/AmtR_Component"/>
+        <sbol:displayId>AmtR_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/AmtR/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/pTac_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/pTac_Component"/>
+        <sbol:displayId>pTac_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/pTac/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation4/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation4"/>
+        <sbol:displayId>SequenceAnnotation4</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation4/SequenceAnnotation4_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation4/SequenceAnnotation4_Range"/>
+            <sbol:displayId>SequenceAnnotation4_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>855</sbol:start>
+            <sbol:end>911</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/L3S2P55_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation1/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation1"/>
+        <sbol:displayId>SequenceAnnotation1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation1/SequenceAnnotation1_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation1/SequenceAnnotation1_Range"/>
+            <sbol:displayId>SequenceAnnotation1_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>72</sbol:start>
+            <sbol:end>151</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/BydvJ_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation0/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation0"/>
+        <sbol:displayId>SequenceAnnotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation0/SequenceAnnotation0_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation0/SequenceAnnotation0_Range"/>
+            <sbol:displayId>SequenceAnnotation0_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>71</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/pTac_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation3/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation3"/>
+        <sbol:displayId>SequenceAnnotation3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation3/SequenceAnnotation3_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation3/SequenceAnnotation3_Range"/>
+            <sbol:displayId>SequenceAnnotation3_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>186</sbol:start>
+            <sbol:end>854</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/AmtR_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation2/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation2"/>
+        <sbol:displayId>SequenceAnnotation2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation2/SequenceAnnotation2_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/SequenceAnnotation2/SequenceAnnotation2_Range"/>
+            <sbol:displayId>SequenceAnnotation2_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>152</sbol:start>
+            <sbol:end>185</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/A1_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/Design0_Group1_Object2_Constraint1/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/Design0_Group1_Object2_Constraint1"/>
+        <sbol:displayId>Design0_Group1_Object2_Constraint1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/pTac_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/BydvJ_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/Design0_Group1_Object2_Constraint3/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/Design0_Group1_Object2_Constraint3"/>
+        <sbol:displayId>Design0_Group1_Object2_Constraint3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/A1_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/AmtR_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/Design0_Group1_Object2_Constraint2/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/Design0_Group1_Object2_Constraint2"/>
+        <sbol:displayId>Design0_Group1_Object2_Constraint2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/BydvJ_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/A1_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object2/Design0_Group1_Object2_Constraint4/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/Design0_Group1_Object2_Constraint4"/>
+        <sbol:displayId>Design0_Group1_Object2_Constraint4</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/AmtR_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/L3S2P55_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2_Sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1"/>
+    <sbol:displayId>Design0_Group1_Object1</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/SrpR_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SrpR_Component"/>
+        <sbol:displayId>SrpR_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/SrpR/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/RiboJ10_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/RiboJ10_Component"/>
+        <sbol:displayId>RiboJ10_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/RiboJ10/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/pTac_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/pTac_Component"/>
+        <sbol:displayId>pTac_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/pTac/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/S1_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/S1_Component"/>
+        <sbol:displayId>S1_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/S1/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/ECK120019600_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/ECK120019600_Component"/>
+        <sbol:displayId>ECK120019600_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/ECK120019600/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation2/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation2"/>
+        <sbol:displayId>SequenceAnnotation2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation2/SequenceAnnotation2_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation2/SequenceAnnotation2_Range"/>
+            <sbol:displayId>SequenceAnnotation2_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>151</sbol:start>
+            <sbol:end>188</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/S1_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation1/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation1"/>
+        <sbol:displayId>SequenceAnnotation1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation1/SequenceAnnotation1_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation1/SequenceAnnotation1_Range"/>
+            <sbol:displayId>SequenceAnnotation1_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>72</sbol:start>
+            <sbol:end>150</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/RiboJ10_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation0/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation0"/>
+        <sbol:displayId>SequenceAnnotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation0/SequenceAnnotation0_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation0/SequenceAnnotation0_Range"/>
+            <sbol:displayId>SequenceAnnotation0_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>71</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/pTac_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation4/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation4"/>
+        <sbol:displayId>SequenceAnnotation4</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation4/SequenceAnnotation4_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation4/SequenceAnnotation4_Range"/>
+            <sbol:displayId>SequenceAnnotation4_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>831</sbol:start>
+            <sbol:end>920</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/ECK120019600_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation3/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation3"/>
+        <sbol:displayId>SequenceAnnotation3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation3/SequenceAnnotation3_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SequenceAnnotation3/SequenceAnnotation3_Range"/>
+            <sbol:displayId>SequenceAnnotation3_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>189</sbol:start>
+            <sbol:end>830</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SrpR_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/Design0_Group1_Object1_Constraint2/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/Design0_Group1_Object1_Constraint2"/>
+        <sbol:displayId>Design0_Group1_Object1_Constraint2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/RiboJ10_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/S1_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/Design0_Group1_Object1_Constraint4/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/Design0_Group1_Object1_Constraint4"/>
+        <sbol:displayId>Design0_Group1_Object1_Constraint4</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SrpR_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/ECK120019600_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/Design0_Group1_Object1_Constraint3/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/Design0_Group1_Object1_Constraint3"/>
+        <sbol:displayId>Design0_Group1_Object1_Constraint3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/S1_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/SrpR_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1_Object1/Design0_Group1_Object1_Constraint1/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/Design0_Group1_Object1_Constraint1"/>
+        <sbol:displayId>Design0_Group1_Object1_Constraint1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/pTac_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/RiboJ10_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1_Sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://cellocad.org/v2/Design0_Group1/1">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1"/>
+    <sbol:displayId>Design0_Group1</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1/Group1_Object0_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1/Group1_Object0_Component"/>
+        <sbol:displayId>Group1_Object0_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1/Group1_Object1_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1/Group1_Object1_Component"/>
+        <sbol:displayId>Group1_Object1_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://cellocad.org/v2/Design0_Group1/Group1_Object2_Component/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1/Group1_Object2_Component"/>
+        <sbol:displayId>Group1_Object2_Component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation0/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation0"/>
+        <sbol:displayId>SequenceAnnotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation0/SequenceAnnotation0_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation0/SequenceAnnotation0_Range"/>
+            <sbol:displayId>SequenceAnnotation0_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>145</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1/Group1_Object0_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation2/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation2"/>
+        <sbol:displayId>SequenceAnnotation2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation2/SequenceAnnotation2_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation2/SequenceAnnotation2_Range"/>
+            <sbol:displayId>SequenceAnnotation2_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>217</sbol:start>
+            <sbol:end>287</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1/Group1_Object2_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation1/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation1"/>
+        <sbol:displayId>SequenceAnnotation1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation1/SequenceAnnotation1_Range/1">
+            <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1/SequenceAnnotation1/SequenceAnnotation1_Range"/>
+            <sbol:displayId>SequenceAnnotation1_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>146</sbol:start>
+            <sbol:end>216</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://cellocad.org/v2/Design0_Group1/Group1_Object1_Component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1/Design0_Group1_Constraint2/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1/Design0_Group1_Constraint2"/>
+        <sbol:displayId>Design0_Group1_Constraint2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1/Group1_Object1_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1/Group1_Object2_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="http://cellocad.org/v2/Design0_Group1/Design0_Group1_Constraint1/1">
+        <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1/Design0_Group1_Constraint1"/>
+        <sbol:displayId>Design0_Group1_Constraint1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="http://cellocad.org/v2/Design0_Group1/Group1_Object0_Component/1"/>
+        <sbol:object rdf:resource="http://cellocad.org/v2/Design0_Group1/Group1_Object1_Component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequence rdf:resource="http://cellocad.org/v2/Design0_Group1_Sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/S1_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/S1_sequence"/>
+    <sbol:displayId>S1_sequence</sbol:displayId>
+    <sbol:elements>GAGTCTATGGACTATGTTTTCACAGAGGAGGTACCAGG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/Design0_Group0_Sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group0_Sequence"/>
+    <sbol:displayId>Design0_Group0_Sequence</sbol:displayId>
+    <sbol:elements></sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/Design0_Group1_Object2_Sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object2_Sequence"/>
+    <sbol:displayId>Design0_Group1_Object2_Sequence</sbol:displayId>
+    <sbol:elements>AACGATCGTTGGCTGTGTTGACAATTAATCATCGGCTCGTATAATGTGTGGAATTGTGAGCGCTCACAATTCTGAagGGTGTCTCAAGGTGCGTACCTTGACTGATGAGTCCGAAAGGACGAAACACCcctctacaaataattttgtttaaAATGTTCCCTAATAATCAGCAAAGAGGTTACTAGATGGCAGGCGCAGTTGGTCGTCCGCGTCGTAGTGCACCGCGTCGTGCAGGTAAAAATCCGCGTGAAGAAATTCTGGATGCAAGCGCAGAACTGTTTACCCGTCAGGGTTTTGCAACCACCAGTACCCATCAGATTGCAGATGCAGTTGGTATTCGTCAGGCAAGCCTGTATTATCATTTTCCGAGCAAAACCGAAATCTTTCTGACCCTGCTGAAAAGCACCGTTGAACCGAGCACCGTTCTGGCAGAAGATCTGAGCACCCTGGATGCAGGTCCGGAAATGCGTCTGTGGGCAATTGTTGCAAGCGAAGTTCGTCTGCTGCTGAGCACCAAATGGAATGTTGGTCGTCTGTATCAGCTGCCGATTGTTGGTAGCGAAGAATTTGCAGAATATCATAGCCAGCGTGAAGCACTGACCAATGTTTTTCGTGATCTGGCAACCGAAATTGTTGGTGATGATCCGCGTGCAGAACTGCCGTTTCATATTACCATGAGCGTTATTGAAATGCGTCGCAATGATGGTAAAATTCCGAGTCCGCTGAGCGCAGATAGCCTGCCGGAAACCGCAATTATGCTGGCAGATGCAAGCCTGGCAGTTCTGGGTGCACCGCTGCCTGCAGATCGTGTTGAAAAAACCCTGGAACTGATTAAACAGGCAGATGCAAAATAACTCGGTACCAAAGACGAACAATAAGACGCTGAAAAGCGTCTTTTTTCGTTTTGGTCC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/Design0_Group2_Sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2_Sequence"/>
+    <sbol:displayId>Design0_Group2_Sequence</sbol:displayId>
+    <sbol:elements>CGACGTACGGTGGAATCTGATTCGTTACCAATTGACATGATACGAAACGTACCGTATCGTTAAGGTCTGAAGCTGTCACCGGATGTGCTTTCCGGTCTGATGAGTCCGTGAGGACGAAACAGCCTCTACAAATAATTTTGTTTAATACTAGAGAAAGAGGGGAAATACTAGATGGTGAGCAAGGGCGAGGAGCTGTTCACCGGGGTGGTGCCCATCCTGGTCGAGCTGGACGGCGACGTAAACGGCCACAAGTTCAGCGTGTCCGGCGAGGGCGAGGGCGATGCCACCTACGGCAAGCTGACCCTGAAGTTCATCTGCACCACAGGCAAGCTGCCCGTGCCCTGGCCCACCCTCGTGACCACCTTCGGCTACGGCCTGCAATGCTTCGCCCGCTACCCCGACCACATGAAGCTGCACGACTTCTTCAAGTCCGCCATGCCCGAAGGCTACGTCCAGGAGCGCACCATCTTCTTCAAGGACGACGGCAACTACAAGACCCGCGCCGAGGTGAAGTTCGAGGGCGACACCCTGGTGAACCGCATCGAGCTGAAGGGCATCGACTTCAAGGAGGACGGCAACATCCTGGGGCACAAGCTGGAGTACAACTACAACAGCCACAACGTCTATATCATGGCCGACAAGCAGAAGAACGGCATCAAGGTGAACTTCAAGATCCGCCACAACATCGAGGACGGCAGCGTGCAGCTCGCCGACCACTACCAGCAGAACACCCCAATCGGCGACGGCCCCGTGCTGCTGCCCGACAACCACTACCTTAGCTACCAGTCCGCCCTGAGCAAAGACCCCAACGAGAAGCGCGATCACATGGTCCTGCTGGAGTTCGTGACCGCCGCCGGGATCACTCTCGGCATGGACGAGCTGTACAAGTAACTCGGTACCAAATTCCAGAAAAGAGGCCTCCCGAAAGGGGGGCCTTTTTTCGTTTTGGTCC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/A1_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/A1_sequence"/>
+    <sbol:displayId>A1_sequence</sbol:displayId>
+    <sbol:elements>AATGTTCCCTAATAATCAGCAAAGAGGTTACTAG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/PhlF_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/PhlF_sequence"/>
+    <sbol:displayId>PhlF_sequence</sbol:displayId>
+    <sbol:elements>ATGGCACGTACCCCGAGCCGTAGCAGCATTGGTAGCCTGCGTAGTCCGCATACCCATAAAGCAATTCTGACCAGCACCATTGAAATCCTGAAAGAATGTGGTTATAGCGGTCTGAGCATTGAAAGCGTTGCACGTCGTGCCGGTGCAAGCAAACCGACCATTTATCGTTGGTGGACCAATAAAGCAGCACTGATTGCCGAAGTGTATGAAAATGAAAGCGAACAGGTGCGTAAATTTCCGGATCTGGGTAGCTTTAAAGCCGATCTGGATTTTCTGCTGCGTAATCTGTGGAAAGTTTGGCGTGAAACCATTTGTGGTGAAGCATTTCGTTGTGTTATTGCAGAAGCACAGCTGGACCCTGCAACCCTGACCCAGCTGAAAGATCAGTTTATGGAACGTCGTCGTGAGATGCCGAAAAAACTGGTTGAAAATGCCATTAGCAATGGTGAACTGCCGAAAGATACCAATCGTGAACTGCTGCTGGATATGATTTTTGGTTTTTGTTGGTATCGCCTGCTGACCGAACAGCTGACCGTTGAACAGGATATTGAAGAATTTACCTTCCTGCTGATTAATGGTGTTTGTCCGGGTACACAGCGTTAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/RiboJ10_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/RiboJ10_sequence"/>
+    <sbol:displayId>RiboJ10_sequence</sbol:displayId>
+    <sbol:elements>CTGAAGCGCTCAACGGGTGTGCTTCCCGTTCTGATGAGTCCGTGAGGACGAAAGCGCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/SrpR_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/SrpR_sequence"/>
+    <sbol:displayId>SrpR_sequence</sbol:displayId>
+    <sbol:elements>ATGGCACGTAAAACCGCAGCAGAAGCAGAAGAAACCCGTCAGCGTATTATTGATGCAGCACTGGAAGTTTTTGTTGCACAGGGTGTTAGTGATGCAACCCTGGATCAGATTGCACGTAAAGCCGGTGTTACCCGTGGTGCAGTTTATTGGCATTTTAATGGTAAACTGGAAGTTCTGCAGGCAGTTCTGGCAAGCCGTCAGCATCCGCTGGAACTGGATTTTACACCGGATCTGGGTATTGAACGTAGCTGGGAAGCAGTTGTTGTTGCAATGCTGGATGCAGTTCATAGTCCGCAGAGCAAACAGTTTAGCGAAATTCTGATTTATCAGGGTCTGGATGAAAGCGGTCTGATTCATAATCGTATGGTTCAGGCAAGCGATCGTTTTCTGCAGTATATTCATCAGGTTCTGCGTCATGCAGTTACCCAGGGTGAACTGCCGATTAATCTGGATCTGCAGACCAGCATTGGTGTTTTTAAAGGTCTGATTACCGGTCTGCTGTATGAAGGTCTGCGTAGCAAAGATCAGCAGGCACAGATTATCAAAGTTGCACTGGGTAGCTTTTGGGCACTGCTGCGTGAACCGCCTCGTTTTCTGCTGTGTGAAGAAGCACAGATTAAACAGGTGAAATCCTTCGAATAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/ECK120033737_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/ECK120033737_sequence"/>
+    <sbol:displayId>ECK120033737_sequence</sbol:displayId>
+    <sbol:elements>GGAAACACAGAAAAAAGCCCGCACCTGACAGTGCGGGCTTTTTTTTTCGACCAAAGG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/Design0_Group1_Object0_Sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object0_Sequence"/>
+    <sbol:displayId>Design0_Group1_Object0_Sequence</sbol:displayId>
+    <sbol:elements>TCTATGATTGGTCCAGATTCGTTACCAATTGACAGCTAGCTCAGTCCTAGGTATATACATACATGCTTGTTTGTTTGTAAACCTTGTCCAACCAAATGATTCGTTACCAATTGACAGTTTCTATCGATCTATAGATAATGCTAGCCTGAAGCGGTCAACGCATGTGCTTTGCGTTCTGATGAGACAGTGATGTCGAAACCGCCTCTACAAATAATTTTGTTTAAGGAGCTATGGACTATGTTTGAAAGGCTGAAATACTAGATGGCACGTACCCCGAGCCGTAGCAGCATTGGTAGCCTGCGTAGTCCGCATACCCATAAAGCAATTCTGACCAGCACCATTGAAATCCTGAAAGAATGTGGTTATAGCGGTCTGAGCATTGAAAGCGTTGCACGTCGTGCCGGTGCAAGCAAACCGACCATTTATCGTTGGTGGACCAATAAAGCAGCACTGATTGCCGAAGTGTATGAAAATGAAAGCGAACAGGTGCGTAAATTTCCGGATCTGGGTAGCTTTAAAGCCGATCTGGATTTTCTGCTGCGTAATCTGTGGAAAGTTTGGCGTGAAACCATTTGTGGTGAAGCATTTCGTTGTGTTATTGCAGAAGCACAGCTGGACCCTGCAACCCTGACCCAGCTGAAAGATCAGTTTATGGAACGTCGTCGTGAGATGCCGAAAAAACTGGTTGAAAATGCCATTAGCAATGGTGAACTGCCGAAAGATACCAATCGTGAACTGCTGCTGGATATGATTTTTGGTTTTTGTTGGTATCGCCTGCTGACCGAACAGCTGACCGTTGAACAGGATATTGAAGAATTTACCTTCCTGCTGATTAATGGTGTTTGTCCGGGTACACAGCGTTAAGGAAACACAGAAAAAAGCCCGCACCTGACAGTGCGGGCTTTTTTTTTCGACCAAAGG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/YFP_cassette_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/YFP_cassette_sequence"/>
+    <sbol:displayId>YFP_cassette_sequence</sbol:displayId>
+    <sbol:elements>CTGAAGCTGTCACCGGATGTGCTTTCCGGTCTGATGAGTCCGTGAGGACGAAACAGCCTCTACAAATAATTTTGTTTAATACTAGAGAAAGAGGGGAAATACTAGATGGTGAGCAAGGGCGAGGAGCTGTTCACCGGGGTGGTGCCCATCCTGGTCGAGCTGGACGGCGACGTAAACGGCCACAAGTTCAGCGTGTCCGGCGAGGGCGAGGGCGATGCCACCTACGGCAAGCTGACCCTGAAGTTCATCTGCACCACAGGCAAGCTGCCCGTGCCCTGGCCCACCCTCGTGACCACCTTCGGCTACGGCCTGCAATGCTTCGCCCGCTACCCCGACCACATGAAGCTGCACGACTTCTTCAAGTCCGCCATGCCCGAAGGCTACGTCCAGGAGCGCACCATCTTCTTCAAGGACGACGGCAACTACAAGACCCGCGCCGAGGTGAAGTTCGAGGGCGACACCCTGGTGAACCGCATCGAGCTGAAGGGCATCGACTTCAAGGAGGACGGCAACATCCTGGGGCACAAGCTGGAGTACAACTACAACAGCCACAACGTCTATATCATGGCCGACAAGCAGAAGAACGGCATCAAGGTGAACTTCAAGATCCGCCACAACATCGAGGACGGCAGCGTGCAGCTCGCCGACCACTACCAGCAGAACACCCCAATCGGCGACGGCCCCGTGCTGCTGCCCGACAACCACTACCTTAGCTACCAGTCCGCCCTGAGCAAAGACCCCAACGAGAAGCGCGATCACATGGTCCTGCTGGAGTTCGTGACCGCCGCCGGGATCACTCTCGGCATGGACGAGCTGTACAAGTAACTCGGTACCAAATTCCAGAAAAGAGGCCTCCCGAAAGGGGGGCCTTTTTTCGTTTTGGTCC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/pTac_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/pTac_sequence"/>
+    <sbol:displayId>pTac_sequence</sbol:displayId>
+    <sbol:elements>AACGATCGTTGGCTGTGTTGACAATTAATCATCGGCTCGTATAATGTGTGGAATTGTGAGCGCTCACAATT</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/pSrpR_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/pSrpR_sequence"/>
+    <sbol:displayId>pSrpR_sequence</sbol:displayId>
+    <sbol:elements>TCTATGATTGGTCCAGATTCGTTACCAATTGACAGCTAGCTCAGTCCTAGGTATATACATACATGCTTGTTTGTTTGTAAAC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/RiboJ53_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/RiboJ53_sequence"/>
+    <sbol:displayId>RiboJ53_sequence</sbol:displayId>
+    <sbol:elements>CTGAAGCGGTCAACGCATGTGCTTTGCGTTCTGATGAGACAGTGATGTCGAAACCGCCTCTACAAATAATTTTGTTTAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/BydvJ_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/BydvJ_sequence"/>
+    <sbol:displayId>BydvJ_sequence</sbol:displayId>
+    <sbol:elements>CTGAagGGTGTCTCAAGGTGCGTACCTTGACTGATGAGTCCGAAAGGACGAAACACCcctctacaaataattttgtttaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/Design0_Group2_Object0_Sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group2_Object0_Sequence"/>
+    <sbol:displayId>Design0_Group2_Object0_Sequence</sbol:displayId>
+    <sbol:elements>CGACGTACGGTGGAATCTGATTCGTTACCAATTGACATGATACGAAACGTACCGTATCGTTAAGGTCTGAAGCTGTCACCGGATGTGCTTTCCGGTCTGATGAGTCCGTGAGGACGAAACAGCCTCTACAAATAATTTTGTTTAATACTAGAGAAAGAGGGGAAATACTAGATGGTGAGCAAGGGCGAGGAGCTGTTCACCGGGGTGGTGCCCATCCTGGTCGAGCTGGACGGCGACGTAAACGGCCACAAGTTCAGCGTGTCCGGCGAGGGCGAGGGCGATGCCACCTACGGCAAGCTGACCCTGAAGTTCATCTGCACCACAGGCAAGCTGCCCGTGCCCTGGCCCACCCTCGTGACCACCTTCGGCTACGGCCTGCAATGCTTCGCCCGCTACCCCGACCACATGAAGCTGCACGACTTCTTCAAGTCCGCCATGCCCGAAGGCTACGTCCAGGAGCGCACCATCTTCTTCAAGGACGACGGCAACTACAAGACCCGCGCCGAGGTGAAGTTCGAGGGCGACACCCTGGTGAACCGCATCGAGCTGAAGGGCATCGACTTCAAGGAGGACGGCAACATCCTGGGGCACAAGCTGGAGTACAACTACAACAGCCACAACGTCTATATCATGGCCGACAAGCAGAAGAACGGCATCAAGGTGAACTTCAAGATCCGCCACAACATCGAGGACGGCAGCGTGCAGCTCGCCGACCACTACCAGCAGAACACCCCAATCGGCGACGGCCCCGTGCTGCTGCCCGACAACCACTACCTTAGCTACCAGTCCGCCCTGAGCAAAGACCCCAACGAGAAGCGCGATCACATGGTCCTGCTGGAGTTCGTGACCGCCGCCGGGATCACTCTCGGCATGGACGAGCTGTACAAGTAACTCGGTACCAAATTCCAGAAAAGAGGCCTCCCGAAAGGGGGGCCTTTTTTCGTTTTGGTCC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/AmtR_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/AmtR_sequence"/>
+    <sbol:displayId>AmtR_sequence</sbol:displayId>
+    <sbol:elements>ATGGCAGGCGCAGTTGGTCGTCCGCGTCGTAGTGCACCGCGTCGTGCAGGTAAAAATCCGCGTGAAGAAATTCTGGATGCAAGCGCAGAACTGTTTACCCGTCAGGGTTTTGCAACCACCAGTACCCATCAGATTGCAGATGCAGTTGGTATTCGTCAGGCAAGCCTGTATTATCATTTTCCGAGCAAAACCGAAATCTTTCTGACCCTGCTGAAAAGCACCGTTGAACCGAGCACCGTTCTGGCAGAAGATCTGAGCACCCTGGATGCAGGTCCGGAAATGCGTCTGTGGGCAATTGTTGCAAGCGAAGTTCGTCTGCTGCTGAGCACCAAATGGAATGTTGGTCGTCTGTATCAGCTGCCGATTGTTGGTAGCGAAGAATTTGCAGAATATCATAGCCAGCGTGAAGCACTGACCAATGTTTTTCGTGATCTGGCAACCGAAATTGTTGGTGATGATCCGCGTGCAGAACTGCCGTTTCATATTACCATGAGCGTTATTGAAATGCGTCGCAATGATGGTAAAATTCCGAGTCCGCTGAGCGCAGATAGCCTGCCGGAAACCGCAATTATGCTGGCAGATGCAAGCCTGGCAGTTCTGGGTGCACCGCTGCCTGCAGATCGTGTTGAAAAAACCCTGGAACTGATTAAACAGGCAGATGCAAAATAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/pAmtR_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/pAmtR_sequence"/>
+    <sbol:displayId>pAmtR_sequence</sbol:displayId>
+    <sbol:elements>CTTGTCCAACCAAATGATTCGTTACCAATTGACAGTTTCTATCGATCTATAGATAATGCTAGC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/Design0_Group1_Sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Sequence"/>
+    <sbol:displayId>Design0_Group1_Sequence</sbol:displayId>
+    <sbol:elements>TCTATGATTGGTCCAGATTCGTTACCAATTGACAGCTAGCTCAGTCCTAGGTATATACATACATGCTTGTTTGTTTGTAAACCTTGTCCAACCAAATGATTCGTTACCAATTGACAGTTTCTATCGATCTATAGATAATGCTAGCAACGATCGTTGGCTGTGTTGACAATTAATCATCGGCTCGTATAATGTGTGGAATTGTGAGCGCTCACAATTAACGATCGTTGGCTGTGTTGACAATTAATCATCGGCTCGTATAATGTGTGGAATTGTGAGCGCTCACAATT</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/ECK120019600_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/ECK120019600_sequence"/>
+    <sbol:displayId>ECK120019600_sequence</sbol:displayId>
+    <sbol:elements>TTCAGCCAAAAAACTTAAGACCGCCGGTCTTGTCCACTACCTTGCAGTAATGCGGTGGACAGGATCGGCGGTTTTCTTTTCTCTTCTCAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/P2_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/P2_sequence"/>
+    <sbol:displayId>P2_sequence</sbol:displayId>
+    <sbol:elements>GGAGCTATGGACTATGTTTGAAAGGCTGAAATACTAG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/L3S2P55_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/L3S2P55_sequence"/>
+    <sbol:displayId>L3S2P55_sequence</sbol:displayId>
+    <sbol:elements>CTCGGTACCAAAGACGAACAATAAGACGCTGAAAAGCGTCTTTTTTCGTTTTGGTCC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/pPhlF_sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/pPhlF_sequence"/>
+    <sbol:displayId>pPhlF_sequence</sbol:displayId>
+    <sbol:elements>CGACGTACGGTGGAATCTGATTCGTTACCAATTGACATGATACGAAACGTACCGTATCGTTAAGGT</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://cellocad.org/v2/Design0_Group1_Object1_Sequence">
+    <sbol:persistentIdentity rdf:resource="http://cellocad.org/v2/Design0_Group1_Object1_Sequence"/>
+    <sbol:displayId>Design0_Group1_Object1_Sequence</sbol:displayId>
+    <sbol:elements>AACGATCGTTGGCTGTGTTGACAATTAATCATCGGCTCGTATAATGTGTGGAATTGTGAGCGCTCACAATTCTGAAGCGCTCAACGGGTGTGCTTCCCGTTCTGATGAGTCCGTGAGGACGAAAGCGCCTCTACAAATAATTTTGTTTAAGAGTCTATGGACTATGTTTTCACAGAGGAGGTACCAGGATGGCACGTAAAACCGCAGCAGAAGCAGAAGAAACCCGTCAGCGTATTATTGATGCAGCACTGGAAGTTTTTGTTGCACAGGGTGTTAGTGATGCAACCCTGGATCAGATTGCACGTAAAGCCGGTGTTACCCGTGGTGCAGTTTATTGGCATTTTAATGGTAAACTGGAAGTTCTGCAGGCAGTTCTGGCAAGCCGTCAGCATCCGCTGGAACTGGATTTTACACCGGATCTGGGTATTGAACGTAGCTGGGAAGCAGTTGTTGTTGCAATGCTGGATGCAGTTCATAGTCCGCAGAGCAAACAGTTTAGCGAAATTCTGATTTATCAGGGTCTGGATGAAAGCGGTCTGATTCATAATCGTATGGTTCAGGCAAGCGATCGTTTTCTGCAGTATATTCATCAGGTTCTGCGTCATGCAGTTACCCAGGGTGAACTGCCGATTAATCTGGATCTGCAGACCAGCATTGGTGTTTTTAAAGGTCTGATTACCGGTCTGCTGTATGAAGGTCTGCGTAGCAAAGATCAGCAGGCACAGATTATCAAAGTTGCACTGGGTAGCTTTTGGGCACTGCTGCGTGAACCGCCTCGTTTTCTGCTGTGTGAAGAAGCACAGATTAAACAGGTGAAATCCTTCGAATAATTCAGCCAAAAAACTTAAGACCGCCGGTCTTGTCCACTACCTTGCAGTAATGCGGTGGACAGGATCGGCGGTTTTCTTTTCTCTTCTCAA</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

@@ -1,0 +1,41 @@
+{
+	"name": "or_gate",
+	"inputFilename": "/root/input/or.v",
+	"placements": 
+	[
+	],
+	"nodes": 
+	[
+		{
+			"name": "b",
+			"nodeType": "PRIMARY_INPUT",
+			"partitionID": -1,
+			"deviceName": "",
+		},
+		{
+			"name": "out",
+			"nodeType": "PRIMARY_OUTPUT",
+			"partitionID": -1,
+			"deviceName": "",
+		},
+		{
+			"name": "a",
+			"nodeType": "PRIMARY_INPUT",
+			"partitionID": -1,
+			"deviceName": "",
+		},
+	],
+	"edges": 
+	[
+		{
+			"name": "e1__b_out",
+			"src": "b",
+			"dst": "out",
+		},
+		{
+			"name": "e2__a_out",
+			"src": "a",
+			"dst": "out",
+		},
+	],
+},

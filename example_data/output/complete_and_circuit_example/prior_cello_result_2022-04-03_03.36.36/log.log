@@ -1,0 +1,320 @@
+2022-04-03 08:35:18.666 [main] INFO  LSRuntimeObject - Executing Stage: logicSynthesis
+2022-04-03 08:35:18.681 [main] INFO  LSRuntimeObject - Executing Algorithm: Yosys
+2022-04-03 08:35:18.977 [main] INFO  Yosys - +-----------------------------------------------------
+2022-04-03 08:35:18.995 [main] INFO  Yosys - |			    RESULTS
+2022-04-03 08:35:18.997 [main] INFO  Yosys - +-----------------------------------------------------
+2022-04-03 08:35:19.001 [main] INFO  Yosys - :               NOR cells:        1
+2022-04-03 08:35:19.002 [main] INFO  Yosys - :               NOT cells:        2
+2022-04-03 08:35:19.003 [main] INFO  Yosys - :        internal signals:        0
+2022-04-03 08:35:19.004 [main] INFO  Yosys - :           input signals:        2
+2022-04-03 08:35:19.005 [main] INFO  Yosys - :          output signals:        1
+2022-04-03 08:35:19.009 [main] INFO  Yosys - +-----------------------------------------------------
+2022-04-03 08:35:19.011 [main] INFO  Yosys - 
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2019  Clifford Wolf <clifford@clifford.at>           |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.9 (git sha1 1979e0b)
+
+
+-- Executing script file `/root/output/and.ys' --
+
+1. Executing Verilog-2005 frontend: /root/input/and.v
+Parsing Verilog input from `/root/input/and.v' to AST representation.
+Generating RTLIL representation for module `\and_gate'.
+Successfully finished Verilog frontend.
+
+2. Executing FLATTEN pass (flatten design).
+No more expansions possible.
+
+3. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+4. Executing HIERARCHY pass (managing design hierarchy).
+
+4.1. Finding top of design hierarchy..
+root of   0 design levels: and_gate            
+Automatically selected and_gate as design top module.
+
+4.2. Analyzing design hierarchy..
+Top module:  \and_gate
+
+4.3. Analyzing design hierarchy..
+Top module:  \and_gate
+Removed 0 unused modules.
+
+5. Executing PROC pass (convert processes to netlists).
+
+5.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+5.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+5.3. Executing PROC_INIT pass (extract init attributes).
+
+5.4. Executing PROC_ARST pass (detect async resets in processes).
+
+5.5. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+5.6. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+5.7. Executing PROC_DFF pass (convert process syncs to FFs).
+
+5.8. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+6. Executing TECHMAP pass (map to technology primitives).
+
+6.1. Executing Verilog-2005 frontend: <techmap.v>
+Parsing Verilog input from `<techmap.v>' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_lut'.
+Successfully finished Verilog frontend.
+
+6.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $and.
+No more expansions possible.
+<suppressed ~1 debug messages>
+
+7. Executing OPT pass (performing simple optimizations).
+
+7.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module and_gate.
+
+7.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\and_gate'.
+Removed a total of 0 cells.
+
+7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \and_gate..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \and_gate.
+Performed a total of 0 changes.
+
+7.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\and_gate'.
+Removed a total of 0 cells.
+
+7.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \and_gate..
+Removed 0 unused cells and 1 unused wires.
+<suppressed ~1 debug messages>
+
+7.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module and_gate.
+
+7.9. Finished OPT passes. (There is nothing left to do.)
+
+8. Executing ABC pass (technology mapping using ABC).
+
+8.1. Extracting gate netlist of module `\and_gate' to `<abc-temp-dir>/input.blif'..
+Extracted 1 gates and 3 wires to a netlist network with 2 inputs and 1 outputs.
+
+8.1.1. Executing ABC.
+Running ABC command: berkeley-abc -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 5 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + ifraig 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + retime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+8.1.2. Re-integrating ABC results.
+ABC RESULTS:               NOR cells:        1
+ABC RESULTS:               NOT cells:        2
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        1
+Removing temp directory.
+
+9. Executing OPT pass (performing simple optimizations).
+
+9.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module and_gate.
+
+9.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\and_gate'.
+Removed a total of 0 cells.
+
+9.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \and_gate..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+9.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \and_gate.
+Performed a total of 0 changes.
+
+9.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\and_gate'.
+Removed a total of 0 cells.
+
+9.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+9.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \and_gate..
+Removed 0 unused cells and 3 unused wires.
+<suppressed ~1 debug messages>
+
+9.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module and_gate.
+
+9.9. Finished OPT passes. (There is nothing left to do.)
+
+10. Executing HIERARCHY pass (managing design hierarchy).
+
+10.1. Analyzing design hierarchy..
+Top module:  \and_gate
+
+10.2. Analyzing design hierarchy..
+Top module:  \and_gate
+Removed 0 unused modules.
+
+11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \and_gate..
+
+12. Generating Graphviz representation of design.
+Writing dot description to `/root/output/and_yosys.dot'.
+Dumping module and_gate to page 1.
+Exec: dot -Tpdf '/root/output/and_yosys.dot' > '/root/output/and_yosys.pdf.new' && mv '/root/output/and_yosys.pdf.new' '/root/output/and_yosys.pdf'
+
+13. Executing EDIF backend.
+
+14. Executing JSON backend.
+
+End of script. Logfile hash: a81cc2802a
+CPU: user 0.05s system 0.00s, MEM: 19.64 MB total, 10.21 MB resident
+Yosys 0.9 (git sha1 1979e0b)
+Time spent: 47% 3x read_verilog (0 sec), 9% 4x opt_expr (0 sec), ...
+
+2022-04-03 08:35:19.022 [main] INFO  Yosys - 
+2022-04-03 08:35:21.712 [main] INFO  Main - 
+--------------------------------------------
+LogicSynthesisStats
+--------------------------------------------
+Netlist name: and_gate
+--------------------------------------------
+Total number of inputs: 2
+Number of primary inputs: 2
+Number of inputs: 0
+--------------------------------------------
+Total number of outputs: 1
+Number of primary outputs: 1
+Number of outputs: 0
+--------------------------------------------
+Number of gates : 3
+Number of PRIMARY_INPUT gates: 2
+Number of PRIMARY_OUTPUT gates: 1
+Number of NOT gates: 2
+Number of NOR gates: 1
+
+2022-04-03 08:35:21.715 [main] INFO  TMRuntimeObject - Executing Stage: technologyMapping
+2022-04-03 08:35:21.723 [main] INFO  TMRuntimeObject - Executing Algorithm: SimulatedAnnealing
+2022-04-03 08:35:21.741 [main] INFO  SimulatedAnnealing - 
+--------------------------------------------
+LSLogicEvaluation
+--------------------------------------------
+out            	false	false	false	true	
+$2             	true	true	false	false	
+b              	false	true	false	true	
+a              	false	false	true	true	
+$3             	true	false	true	false	
+$1             	false	false	false	true	
+--------------------------------------------
+
+2022-04-03 08:36:08.975 [main] INFO  SimulatedAnnealing - 
+--------------------------------------------
+TMToxicityEvaluation
+--------------------------------------------
+$2             	1.00	1.00	1.00	1.00	
+$3             	0.99	1.00	0.99	1.00	
+$1             	0.91	1.00	1.00	1.00	
+--------------------------------------------
+               	0.91	1.00	0.99	1.00	
+--------------------------------------------
+
+2022-04-03 08:36:08.984 [main] INFO  SimulatedAnnealing - 
+--------------------------------------------
+TMActivityEvaluation
+--------------------------------------------
+out            	0.0016	0.0016	0.0016	0.4100	
+$2             	2.6344	2.6344	0.0103	0.0103	
+b              	0.0082	2.5000	0.0082	2.5000	
+a              	0.0250	0.0250	0.3100	0.3100	
+$3             	2.2373	0.0508	2.2373	0.0508	
+$1             	0.0040	0.0041	0.0041	1.0249	
+--------------------------------------------
+
+2022-04-03 08:36:08.986 [main] INFO  SimulatedAnnealing - Node: $1   	Type: NOR       	Gate: S3_SrpR   	
+2022-04-03 08:36:08.987 [main] INFO  SimulatedAnnealing - Node: out  	Type: PRIMARY_OUTPUT	Gate: YFP_reporter	
+2022-04-03 08:36:08.988 [main] INFO  SimulatedAnnealing - Node: $2   	Type: NOT       	Gate: P1_PhlF   	
+2022-04-03 08:36:08.990 [main] INFO  SimulatedAnnealing - Node: $3   	Type: NOT       	Gate: A1_AmtR   	
+2022-04-03 08:36:08.991 [main] INFO  SimulatedAnnealing - Node: b    	Type: PRIMARY_INPUT	Gate: AraC_sensor	
+2022-04-03 08:36:08.992 [main] INFO  SimulatedAnnealing - Node: a    	Type: PRIMARY_INPUT	Gate: LuxR_sensor	
+2022-04-03 08:36:08.992 [main] INFO  SimulatedAnnealing - Score: 251.06
+2022-04-03 08:36:08.993 [main] INFO  SimulatedAnnealing - Generating plots
+2022-04-03 08:36:29.582 [main] INFO  PLRuntimeObject - Executing Stage: placing
+2022-04-03 08:36:29.595 [main] INFO  PLRuntimeObject - Executing Algorithm: Eugene
+2022-04-03 08:36:29.658 [main] INFO  Eugene - building Eugene input script
+2022-04-03 08:36:29.670 [main] INFO  Eugene - running Eugene
+2022-04-03 08:36:32.868 [main] INFO  Eugene - processing Eugene output
+2022-04-03 08:36:32.873 [main] INFO  Eugene - generating dnaplotlib figures
+2022-04-03 08:36:35.332 [main] INFO  EXRuntimeObject - Executing Stage: export
+2022-04-03 08:36:35.342 [main] INFO  EXRuntimeObject - Executing Algorithm: SBOL
+2022-04-03 08:36:35.674 [main] INFO  SBOL - creating SBOL document
+2022-04-03 08:36:35.819 [main] INFO  SBOL - grouping inserts
+2022-04-03 08:36:35.826 [main] INFO  SBOL - adding design modules
+2022-04-03 08:36:35.830 [main] INFO  SBOL - Writing SBOL document.

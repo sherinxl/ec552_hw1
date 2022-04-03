@@ -1,0 +1,76 @@
+[ {
+  "name" : "netlist",
+  "description" : "The netlist.",
+  "file" : "and_gate_logicSynthesis.dot",
+  "stage" : "logicSynthesis"
+}, {
+  "name" : "netlist",
+  "description" : "The netlist.",
+  "file" : "and_gate_logicSynthesis.pdf",
+  "stage" : "logicSynthesis"
+}, {
+  "name" : "netlist",
+  "description" : "The netlist.",
+  "file" : "and_gate_logicSynthesis.png",
+  "stage" : "logicSynthesis"
+}, {
+  "name" : "logic",
+  "description" : "The truth table for the circuit.",
+  "file" : "and_logic.csv",
+  "stage" : "technologyMapping"
+}, {
+  "name" : "toxicity",
+  "description" : "The toxicity for the circuit.",
+  "file" : "and_toxicity.csv",
+  "stage" : "technologyMapping"
+}, {
+  "name" : "activity",
+  "description" : "The activity for the circuit.",
+  "file" : "and_activity.csv",
+  "stage" : "technologyMapping"
+}, {
+  "name" : "response_plot",
+  "description" : "The response plot for node $1.",
+  "file" : "response_plot_$1_S2_SrpR.png",
+  "stage" : "technologyMapping"
+}, {
+  "name" : "response_plot",
+  "description" : "The response plot for node $2.",
+  "file" : "response_plot_$2_H1_HlyIIR.png",
+  "stage" : "technologyMapping"
+}, {
+  "name" : "response_plot",
+  "description" : "The response plot for node $3.",
+  "file" : "response_plot_$3_P1_PhlF.png",
+  "stage" : "technologyMapping"
+}, {
+  "name" : "cytometry_plot",
+  "description" : "The cytometry plot for node $1.",
+  "file" : "cytometry_plot_$1_S2_SrpR.png",
+  "stage" : "technologyMapping"
+}, {
+  "name" : "cytometry_plot",
+  "description" : "The cytometry plot for node $2.",
+  "file" : "cytometry_plot_$2_H1_HlyIIR.png",
+  "stage" : "technologyMapping"
+}, {
+  "name" : "cytometry_plot",
+  "description" : "The cytometry plot for node $3.",
+  "file" : "cytometry_plot_$3_P1_PhlF.png",
+  "stage" : "technologyMapping"
+}, {
+  "name" : "netlist",
+  "description" : "The netlist.",
+  "file" : "and_gate_technologyMapping.dot",
+  "stage" : "technologyMapping"
+}, {
+  "name" : "netlist",
+  "description" : "The netlist.",
+  "file" : "and_gate_technologyMapping.pdf",
+  "stage" : "technologyMapping"
+}, {
+  "name" : "netlist",
+  "description" : "The netlist.",
+  "file" : "and_gate_technologyMapping.png",
+  "stage" : "technologyMapping"
+} ]

@@ -1,0 +1,16 @@
+digraph or_gate {
+label="or_gate"
+rankdir="LR"
+remincross=true
+splines=ortho
+{rank = same; "b";"a";}
+{rank = same; "out";}
+"b" [shape=octagon, label="b
+PRIMARY_INPUT"]
+"out" [shape=octagon, label="out
+PRIMARY_OUTPUT"]
+"a" [shape=octagon, label="a
+PRIMARY_INPUT"]
+"b" -> "out"
+"a" -> "out"
+}

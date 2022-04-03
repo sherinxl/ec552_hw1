@@ -1,0 +1,89 @@
+{
+	"name": "and_gate",
+	"inputFilename": "/root/input/xor.v",
+	"placements": 
+	[
+	],
+	"nodes": 
+	[
+		{
+			"name": "$1",
+			"nodeType": "NOR",
+			"partitionID": -1,
+			"deviceName": "E1_BetI",
+		},
+		{
+			"name": "out",
+			"nodeType": "PRIMARY_OUTPUT",
+			"partitionID": -1,
+			"deviceName": "YFP_reporter",
+		},
+		{
+			"name": "$2",
+			"nodeType": "NOR",
+			"partitionID": -1,
+			"deviceName": "P2_PhlF",
+		},
+		{
+			"name": "$3",
+			"nodeType": "NOR",
+			"partitionID": -1,
+			"deviceName": "A1_AmtR",
+		},
+		{
+			"name": "a",
+			"nodeType": "PRIMARY_INPUT",
+			"partitionID": -1,
+			"deviceName": "LacI_sensor",
+		},
+		{
+			"name": "b",
+			"nodeType": "PRIMARY_INPUT",
+			"partitionID": -1,
+			"deviceName": "LacIStretch_sensor",
+		},
+	],
+	"edges": 
+	[
+		{
+			"name": "e1__$1_out",
+			"src": "$1",
+			"dst": "out",
+		},
+		{
+			"name": "e2__$2_out",
+			"src": "$2",
+			"dst": "out",
+		},
+		{
+			"name": "e3__$3_$1",
+			"src": "$3",
+			"dst": "$1",
+		},
+		{
+			"name": "e4__a_$1",
+			"src": "a",
+			"dst": "$1",
+		},
+		{
+			"name": "e5__$3_$2",
+			"src": "$3",
+			"dst": "$2",
+		},
+		{
+			"name": "e6__b_$2",
+			"src": "b",
+			"dst": "$2",
+		},
+		{
+			"name": "e7__b_$3",
+			"src": "b",
+			"dst": "$3",
+		},
+		{
+			"name": "e8__a_$3",
+			"src": "a",
+			"dst": "$3",
+		},
+	],
+},

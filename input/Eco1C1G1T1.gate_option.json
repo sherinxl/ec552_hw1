@@ -1,0 +1,29 @@
+[
+    {
+		"collection": "option",
+		"name": "P2_PhlF_gate_option",
+		"options": [
+            {
+			    "name":"Decrease Slope",
+                "value":1.02,
+                "description":"Adjust the parameter"
+            }
+	    ]
+    },
+    {
+		"collection": "option",
+		"name": "A1_AmtR_gate_option",
+		"options": [
+            {
+			    "name":"Weaker Promoter",
+                "value":1.2,
+                "description":"Adjust the parameter"
+            },
+            {
+                "name":"Stronger RBS",
+                "value":5,
+                "description":"Adjust the parameter"
+            }
+	    ]
+    }
+]

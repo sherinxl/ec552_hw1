@@ -1,0 +1,29 @@
+[
+    {
+		"collection": "option",
+		"name": "LacI_sensor_option",
+		"options": [
+            {
+			    "name":"Stretch",
+                "value":1.2,
+                "description":"Adjust the parameter"
+            }
+	    ]
+    },
+    {
+		"collection": "option",
+		"name": "TetR_sensor_option",
+		"options": [
+            {
+			    "name":"Increase Slope",
+                "value":1.2,
+                "description":"Adjust the parameter"
+            },
+            {
+                "name":"Stronger Promoter",
+                "value":2,
+                "description":"Adjust the parameter"
+            }
+	    ]
+    }
+]

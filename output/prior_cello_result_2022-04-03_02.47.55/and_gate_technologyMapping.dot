@@ -1,0 +1,40 @@
+digraph and_gate {
+label="and_gate"
+rankdir="LR"
+remincross=true
+splines=ortho
+{rank = same; "a";"b";}
+{rank = same; "out";}
+"$1" [shape=box, label="$1
+NOR
+E1_BetI"]
+"out" [shape=octagon, label="out
+PRIMARY_OUTPUT
+YFP_reporter"]
+"$2" [shape=box, label="$2
+NOR
+P2_PhlF"]
+"$3" [shape=box, label="$3
+NOR
+A1_AmtR"]
+"$3Point" [ shape=point ]
+"$3" -> "$3Point":w
+"a" [shape=octagon, label="a
+PRIMARY_INPUT
+LacI_sensor"]
+"aPoint" [ shape=point ]
+"a" -> "aPoint":w
+"b" [shape=octagon, label="b
+PRIMARY_INPUT
+LacIStretch_sensor"]
+"bPoint" [ shape=point ]
+"b" -> "bPoint":w
+"$1" -> "out"
+"$2" -> "out"
+"$3Point":e -> "$1"
+"aPoint":e -> "$1"
+"$3Point":e -> "$2"
+"bPoint":e -> "$2"
+"bPoint":e -> "$3"
+"aPoint":e -> "$3"
+}
