@@ -22,7 +22,8 @@
 │   ├── Eco1C1G1T1.gate_option.json	# a *.gate_option.json file that describes the operations applied to modify the gates
 │   └── options.csv			# a CSV describing various inputs to the compiler
 ├── input_library			# a library contains some input file examples
-├── main.py
+├── main
+│   ├── main.py
 ├── output				# the folder contains the output files
 ├── example_data			# an example folder contains an input folder, main.py, and output folder	
 │   ├── input
