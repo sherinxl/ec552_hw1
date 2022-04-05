@@ -1,0 +1,5 @@
+Best Score: 324.93
+Best Chassis: Eco1C1G1T1
+Best Input Signals: ['LacI', 'TetR']
+Best Gates: {'out': 'YFP_reporter', '$2': 'E1_BetI', 'b': 'LacI_sensor', 'a': 'TetR_sensor', '$3': 'A1_AmtR', '$1': 'P3_PhlF'}
+Best Logic Dict: {'out': 'YFP_reporter', '$2': 'E1_BetI', 'b': 'LacI_sensor', 'a': 'TetR_sensor', '$3': 'A1_AmtR', '$1': 'P3_PhlF'}

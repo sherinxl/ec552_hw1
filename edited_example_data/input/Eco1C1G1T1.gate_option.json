@@ -1,0 +1,24 @@
+[
+    {
+		"collection": "option",
+		"name": "P3_PhlF_gate_option",
+		"options": [
+            {
+			    "name":"Weaker RBS",
+                "value":1.5,
+                "description":"Adjust the parameter"
+            }
+        ]
+    },
+    {
+		"collection": "option",
+		"name": "S2_SrpR_gate_option",
+		"options": [
+            {
+			    "name":"Weaker RBS",
+                "value":3,
+                "description":"Adjust the parameter"
+            }
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+		"collection": "option",
+		"name": "LacI_sensor_option",
+		"options": [
+            {
+			    "name":"Stretch",
+                "value":1.5,
+                "description":"Adjust the parameter"
+            }
+	    ]
+    }
+]
